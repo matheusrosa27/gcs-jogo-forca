@@ -44,7 +44,7 @@ public class App {
             // Solicita letra do usuario
             System.out.print("Letra: ");
             String strLetraDigitada = in.nextLine();
-            char letraDigitada = strLetraDigitada.charAt(0);
+            char letraDigitada = strLetraDigitada.toUpperCase().charAt(0);
 
             // Revela letras, se existirem.
             boolean letraEncontrada = false;
