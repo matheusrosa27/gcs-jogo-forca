@@ -20,7 +20,7 @@ public class App {
             "PERA"
         };
 
-        int indicePalavraSorteada = (int) (Math.random()*7);
+        int indicePalavraSorteada = (int) (Math.random()*bancoPalavras.length);
         int chancesRestantes = 10;
         String palavraSorteada = bancoPalavras[indicePalavraSorteada];
         int tamPalavraSorteada = palavraSorteada.length();
