@@ -16,9 +16,11 @@ public class App {
             "JABUTICABA",
             "BANANA",
             "PESSEGO",
+            "MORANGO",
+            "PERA"
         };
 
-        int indicePalavraSorteada = 2;
+        int indicePalavraSorteada = (int) (Math.random()*7);
         int chancesRestantes = 10;
         String palavraSorteada = bancoPalavras[indicePalavraSorteada];
         int tamPalavraSorteada = palavraSorteada.length();
